@@ -266,11 +266,19 @@ a:hover {
 
 .voffset {
     margin-top: 30px;
+    
+}
+.voffset {
+    margin-top: 30px;
+    
 }
 
-.voffset-lg {
-    margin-top: 80px;
+
+
+.voffset-lg .text-center  {
+    color:  #000000;
 }
+
 
 .row-no-gutters {
     margin-right: 0;
@@ -723,6 +731,7 @@ a {
     font-style: italic;
     font-size: 20px;
     text-align: center;
+
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
