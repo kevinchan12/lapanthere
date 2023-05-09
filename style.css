@@ -373,6 +373,59 @@ a:hover {
     float: left;
 }
 
+/* CSS page avis*/
+
+
+/* Centrer le contenu du body */
+body {
+    align-items: center;
+    height: 100vh;
+    background-color: #F8F8F8;
+}
+
+/* Style de la section d'avis */
+.container-avis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 440px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+/* Alignement du logo et du nom de l'entreprise */
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-header img {
+    margin-right: 10px;
+}
+
+/* Style du texte d'avis */
+.container-avis p
+.container-avis i
+ {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-avis i {
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* CSS page avis*/
+
+
 /* Page 2 */
 
 /* Centrage du formulaire */
