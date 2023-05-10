@@ -324,6 +324,11 @@ a:hover {
     z-index: 1;
 }
 
+.fiche-google {
+    color: white;
+  }
+  
+
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -482,6 +487,37 @@ body {
     margin: auto;
   }
   
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #FFA07A;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+#avis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 207px;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 
 
 
@@ -854,6 +890,17 @@ h4 {
     font-weight: bold;
     text-shadow: 0.1px 0.1px 0.1px black;
 }
+
+.white .navbar-brand-lien {
+    color: #ffffff!important;
+    font-weight: bold;
+    text-shadow: 0.1px 0.1px 0.1px black;
+}
+
+.white .navbar-brand-lien:hover {
+    color: #333333!important;
+}
+
 
 
 .portfolio-thumb {
